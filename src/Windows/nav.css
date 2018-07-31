@@ -1,0 +1,113 @@
+
+
+  @import url(http://fonts.googleapis.com/css?family=Raleway);
+  @font-face {
+    font-family: Lato-Regular;
+    src: url('./fonts/Lato/Lato-Regular.ttf'); 
+  }
+/* #cssmenu,
+#cssmenu Nav,
+#cssmenu Nav NavItem,
+#cssmenu Nav NavItem a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} */
+#cssmenu:after,
+ Nav:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu {
+  width: auto;
+  border-bottom: 3px solid #2ecc71;
+  font-family: Lato-Regular, sans-serif;
+  line-height: 1;
+}
+.lgut {
+    float: right;
+    top:0;
+    right:0;
+    color: #ffffff;
+
+}
+.right {
+  float: left;
+  color: #ffffff;
+}
+.right, .lgut {
+  padding: 10px;
+  font-family: Lato-Regular, sans-serif;
+}
+/* #cssmenu.align-center > Navbar >Nav {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > Navbar >Nav > NavItem {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > Navbar >Nav > NavItem {
+  float: right;
+} */
+ /* a {
+  margin-right: 0;
+  margin-left: -4px;
+} */
+ /* a {
+
+  padding: 18px 25px 12px 25px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
+  
+} */
+/* NavItem.active  a,
+ NavItem:hover  a,
+ NavItem  a:hover {
+  color: #ffffff;
+} */
+.right:hover, .lgut:hover {
+  background-color: #2ecc71;
+  border-top-right-radius: 20px;
+  border-top-left-radius:  20px;
+
+}
+/* a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  content: "";
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: perspective(5px) rotateX(2deg);
+  -webkit-transform-origin: bottom;
+  -moz-transform: perspective(5px) rotateX(2deg);
+  -moz-transform-origin: bottom;
+  transform: perspective(5px) rotateX(2deg);
+  transform-origin: bottom;
+} */
+.active  {
+  background-color: #2ecc71;
+  border-top-right-radius: 20px;
+  border-top-left-radius:  20px;
+}
